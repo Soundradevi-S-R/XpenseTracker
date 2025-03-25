@@ -1,0 +1,33 @@
+
+.formWrapper form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.formWrapper h3{
+    font-size: 30 px;
+    margin : 0 10px 10px 0 ;
+}
+.formWrapper input,
+.formWrapper select{ 
+    
+    font-family: var(--font-body);
+    border:0px;    
+    box-sizing: border-box;
+    box-shadow: 0 5px 5px rgba(0,0,0,.3);
+    background: #fbfbff;
+    color:#333;
+    font-size: 1rem;    
+    border-radius: 15px;
+    padding: 10px;  
+
+}
+
+@media(max-width:750px) {
+    .formWrapper form{
+        grid-template-columns: 1fr;  
+    }
+    
+}
+

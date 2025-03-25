@@ -1,0 +1,26 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:ital');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:ital');
+
+:root { 
+--primary-bg-color:#3B3B3B;
+--secondary-bg-color : #9B9B9B;
+--font-heading: "Ubuntu", sans-serif;
+--font-body: "Open Sans", sans-serif;
+
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
