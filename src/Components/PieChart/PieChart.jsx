@@ -1,5 +1,5 @@
-import React, { PureComponent } from 'react';
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer, Legend } from 'recharts';
+import React from 'react';
+import { PieChart, Pie, Cell, ResponsiveContainer, Legend } from 'recharts';
 //npm install recharts for this to work under the root folder
 
 // const data = [
